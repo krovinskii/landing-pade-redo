@@ -125,3 +125,34 @@ body {
     gap: 10px;
 }
 
+/**QUOTE**/
+
+.quote-main {
+    background-color: #E5E7EB;
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 125px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.quote-quote {
+    background-color: #E5E7EB;
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+    max-width: 850px;
+    align-items: center;
+    
+}
+.quote-author {
+    background-color: #E5E7EB;
+    display: flex;
+    font-weight: 500;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 75px;
+}
+
