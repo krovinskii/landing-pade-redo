@@ -12,6 +12,13 @@ li {
     display: inline-block;
     margin-left: 8px;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    background-color: #1F2937;
+}
 /** CLASSES **/
 
 /**HEADER**/
@@ -43,11 +50,16 @@ li {
     display: flex;
     justify-content: center;
     gap: 80px;
+    padding-bottom: 75px;
 }
 .hero-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-self: flex-start;
+}
+.hero-right {
+    display: flex;
 }
 .hero-header {
     font-size: 48px;
@@ -74,5 +86,41 @@ li {
     font-weight: 600;
 }
 
-/**INFORMATION*//
+/**INFORMATION**/
+
+.information-main {
+    background-color: #F9FAF8;
+    padding-top: 75px;
+    padding-bottom: 150px;
+}
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.information-insert {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    align-items: center;
+}
+.info-text {
+    background-color: #F9FAF8;
+    max-width: 250px;
+    text-align: center;
+    color:#3e3e3e;
+}
+.information-img {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 
